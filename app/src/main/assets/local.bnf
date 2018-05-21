@@ -1,0 +1,8 @@
+#BNF+IAT 1.0 UTF-8;
+!grammar local;
+!slot <voice>;
+!slot <video>;
+!start <commands>;
+<commands>:[<voice>][<video>];
+<voice>:音频;
+<video>:视频;
